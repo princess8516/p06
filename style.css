@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+
+}.main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}marquee{
+    background-color: rgb(77, 114, 114);
+    height: 7%;
+  padding-top: 1%;
+  color: aliceblue;
+}header{
+    height: 10%;width: 100%;
+  
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    padding-left: 5%;
+
+
+}ul{
+    list-style: none;
+    display: flex;
+    gap: 5%;
+    width: 50%;
+    background-color: #fff;
+   
+}header>button{
+    width: 15%;
+    height: 40%;
+    border-radius: 15px;
+}.page1{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://himalyantrips.com/wp-content/uploads/2019/03/travel-and-tourism.jpg);
+    background-size: cover;
+    padding-left: 15%;
+    padding-top: 3%;
+}.page1>h1{
+    padding-left: 20%;
+    font-size: 50px;
+}.page1>p{
+    font-size: 20px;
+    padding-left: 10%;
+    width: 70%;
+}select{
+    font-size: 15px;
+   margin-left: 3%;
+   height: 10%;
+   width: 30%;
+   border-radius: 15px;
+   padding-left: 5%;
+   margin-top: 3%;
+}.page1>button{
+transform: translate(-210%,125%);
+width: 20%;
+height: 10%;
+border-radius: 15px;
+
+}
